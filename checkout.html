@@ -43,23 +43,28 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th scope="row">Play 3</th>
+          <tr id="checkout">
+            <!-- <th scope="row">Play 3</th>
             <td>3600</td>
           </tr>
 
           <tr>
             <th scope="row">Play 2</th>
             <td>1000</td>
-          </tr>
+ -->          </tr>
 
-          <tr>
+          <tr id="total-container">
             <td></td>
             <td></td>
-            <td>4600</td>
+            <td id="total"></td>
           </tr>
         </tbody>
       </table>
+  
+     <div id="paypal-button-container"></div>
+    
+      <script src="https://www.paypalobjects.com/api/checkout.js"></script>
       <script src="js/checkout.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
