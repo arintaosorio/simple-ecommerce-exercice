@@ -33,8 +33,6 @@ function calculateTotal(productsCart) {
   console.log(sum);
 
  
-
- 
 }
 
 
